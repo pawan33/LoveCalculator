@@ -5,9 +5,8 @@ name2 = input("What is their name? \n")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
-l_name1=name1.lower()
-l_name2=name2.lower()
-combined_name=l_name1+l_name2
+comb_name=l_name1+l_name2
+combined_name=comb_name.lower()
 
 first_digit=str(combined_name.count('t')+combined_name.count('r')+combined_name.count('u')+combined_name.count('e'))
 
